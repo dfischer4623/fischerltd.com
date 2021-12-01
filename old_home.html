@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Mark Fisher, Ltd. QuickBooks & Programming</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1">
+	<meta name="description" content="QuickBooks & Programming. Accelerate your journey to a digital enterprise. Our Digital Transformation practices and Accounting partnerships bring a breadth of expertise to confidently guide you from strategy to implementation.">
+	<link rel="icon" type="ico" href="favicon.png" />
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+
+.tablink:hover {
+	background-color: Lightgray;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	color: black;
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
+}
+
+#Home {
+	background-image: url('/image3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#CenterBody {
+	text-align: center;
+	font-style: italic;
+	text-shadow: 3px 3px 3px white;
+}
+
+#Services {
+	background-image: url("/image1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#Accounting {
+	background-image: url('/image2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#Contact {
+	background-image: url('/image4.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	text-shadow: 3px 3px 3px white;
+	font-style: italic;
+}
+
+#Logo {
+	width: 200px;
+	height: 150px;
+}
+
+#LogoText {
+	top: 100px;
+	left: 230px;
+	width: 1100px;
+	height: 175px;
+	position: absolute;
+	border-style: double;
+	border-size: 8px;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 3px 3px 3px white;
+}
+
+footer{ 
+	margin: 0px; 
+	padding: 10px; 
+	height: 40px; 
+	width: 300px; 
+	position: fixed; 
+	top: 600px; 
+	left: 550px;
+	text-align: center;
+	font-size:15px;
+	font-style: italic;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'gray')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Services', this, 'gray')">IT Services</button>
+<button class="tablink" onclick="openPage('Accounting', this, 'gray')">Accounting</button>
+<button class="tablink" onclick="openPage('Contact', this, 'gray')">Contact</button>
+
+<div id="Home" class="tabcontent">
+	<div id="Logo">
+		<img src="/mflogo.png">
+	</div>
+	<div id="LogoText">
+		<h1>Accelerate your journey to a digital enterprise. Our Digital Transformation practices and Accounting 
+		partnerships bring a breadth of expertise to confidently guide you from strategy to implementation.</h1>
+	</div>
+	<div id="CenterBody">	
+		<h2><br>We can help define your needs and take your business to the next level.<br><br>
+		
+		Our Project Management and Technical Expertise will define a scope, cost and a time-frame of the project. The role of Mark Fischer, Ltd. 
+		is to support and nurture the project from the very beginning of the project until the end,
+		and deliver the project not only in the scope, time and cost but also with complete customer satisfaction.<br><br>
+		
+		Please review our IT Services and Accounting page for more information.</h2>
+	</div>
+	<footer>
+		&copy; 1995-2020 Mark Fischer, Ltd.
+	</footer>
+</div>
+
+<div id="Services" class="tabcontent">
+	<div id="Logo">
+		<img src="/mflogo.png">
+	</div>
+	<div id="LogoText">
+		<h1>No forced partnership technology here.<br>We focus on the right solution to drive our clients’ business forward and employ a technology-agnostic approach, 
+		allowing access to current, robust, and appropriate solutions.</h1>
+	</div>
+	<div id="CenterBody">
+		<h2><br>Paramount to this is ensuring the security and compliant use of all information. In the end, it’s not just technology; 
+		we ensure our methodologies, staff, and governance align with the technology to drive the right client results.<br></h2>
+		<h3>Services include:<br><br>
+			<table style="width:100%">
+				<tr>
+					<td rowspan="2">AMP Full Stack Development (HTML5, CSS3, Apache, MySQL, PHP7, Python)</td>
+					<td>Networking and Security (Cisco Certified)</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Microsoft Full Stack Development (Java, C#, IIS, Visual Studio, SQL Server)</td>
+					<td>Database Management (MySQL, MS SQL, Oracle, IBM DB2)</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Information Technology Project Management (PMP Certified)</td>
+					<td>Hardware & Operating Systems (MS Windows Server, OS/i, Linux, Unix)</td>
+				</tr>
+				<tr>
+					
+					<td>IBM i Softare Development (RPG all flavors, SQL, DB2, CLP, DFU, SEU, etc.)</td>
+					<td>LabVIEW and Embedded C++/Objective-C Coding</td>
+				</tr>
+			</table>
+		</h3>
+		<h3><ul style="list-style-type:none;">
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li></li>
+		  <li>
+		  <li>
+		  <li>
+		</ul></h3> 
+	</div>
+	<footer>
+		&copy; 1995-2020 Mark Fischer, Ltd.
+	</footer>
+</div>
+
+<div id="Accounting" class="tabcontent">
+
+	<div id="Logo">
+		<img src="/mflogo.png">
+	</div>
+	<div id="LogoText">
+		<h1>Whether you’re new to QuickBooks or upgrading your file, we can customize a QuickBooks Consulting plan
+		specifically for your business. Our team of QuickBooks advisors has experience working with companies in many 
+		industries with all versions of QuickBooks.</h1>
+	</div>
+	<div id="CenterBody">
+		<h2><br>QuickBooks is accounting software that offers several versions designed to fit the needs of most small or medium-sized businesses. 
+		All versions of QuickBooks offer tools for routine accounting that simplify tracking income and expenses; 
+		more advanced versions provide features for managing contractors, setting prices or tracking inventory.<br><br>
+		QuickBooks also seamlessly integrates into most popular Payroll Vendor systems.<br><br>
+		Feel free to contact us for a free QuickBooks evaluation.
+		</h2>
+	</div>
+	<footer>
+		&copy; 1995-2020 Mark Fischer, Ltd.
+	</footer>
+</div>
+
+<div id="Contact" class="tabcontent">
+	<div id="Logo">
+		<img src="/mflogo.png">
+	</div>
+	<form action="/mfcontact.php" method="POST">
+		<div id="LogoText"><h1>Please submit your contact information and question. <br><br>You  will receive a confirmation email, and a  qualified representative will contact you soon.</h1><br><br></div>
+		<strong>
+		<h3><br><br>
+		Title :
+			<select name="title">
+			<option value=""></option>
+			<option value="Dr.">Dr.</option>
+			<option value="Mr.">Mr.</option>
+			<option value="Mrs.">Mrs.</option>
+			<option value="Ms.">Ms.</option>
+			<option value="Mx.">Mx.</option>
+			</select>
+		<label> First Name : <input type="text" name="firstName" required="required"> </label>
+		<label> Last Name : <input type="text" name="lastName" required="required"> </label>
+		<label> Company Name : <input type="text" name="compName" required="required"> </label><br><br>
+		<label> Email Address : <input type="email" name="eMail" required="required"> </label>
+		<label> Phone # : <input type="phone" name="phone" placeholder="(nnn)nnn-nnnn" required="required"> </label><br><br>
+		How would you like us to contact you? :
+			<label> Email : <input type="radio" name="radEP" value="E"> </label>
+			<label> Phone : <input type="radio" name="radEP" value="P"> </label>
+			<label> Both : <input type="radio" name="radEP" value="B"> </label><br><br>
+		If you would prefer a phone call, when is a good day/time to call? : 
+			<label> <input type="text" name="dateTimeLocal"> </label><br><br>
+		Question : <br>
+			<textarea name="question" cols=100 rows=5  required="required"></textarea><br>
+		<input type="reset" name="reset" value="Reset Form">
+		<input type="submit" name="submit" value="Submit">
+		</h3>
+		</strong>
+	</form>
+
+	<footer>
+		&copy; 1995-2020 Mark Fischer, Ltd.
+	</footer>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
